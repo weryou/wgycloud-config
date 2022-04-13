@@ -1,7 +1,6 @@
 pring:
   profiles:
-    active: 
-    - dev
+    active: dev
     
 ---
 pring:
