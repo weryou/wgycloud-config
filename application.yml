@@ -1,3 +1,18 @@
-pring:
+spring:
+  profiles:
+    active: 
+	  - dev
+    
+---
+spring:
+  profiles: dev   # 开发环境
   application:
     name: qd-server-cloud-config-dev
+    
+---
+spring:
+  profiles: test   # 测试环境
+  application:
+    name: qd-server-cloud-config-test
+    
+#保存格式为 UTF-8 
