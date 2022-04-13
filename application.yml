@@ -1,6 +1,6 @@
 pring:
   profiles:
-    active: dev
+    active: test
     
 ---
 pring:
