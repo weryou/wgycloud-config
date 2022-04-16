@@ -1,16 +1,15 @@
-pring:
+spring:
   profiles:
-    active: 
-    - dev
+    active: dev
     
 ---
-pring:
+spring:
   profiles: dev   # 开发环境
   application:
     name: qd-server-cloud-config-dev
     
 ---
-pring:
+spring:
   profiles: test   # 测试环境
   application:
     name: qd-server-cloud-config-test
